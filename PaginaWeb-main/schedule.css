@@ -1,0 +1,24 @@
+.agenda{
+    display: block;
+    text-align: center;
+    font-family: 'Nexa', sans-serif;
+    font-weight: normal;
+    margin-block-end: 50px;
+}
+
+.agenda h1{
+    color: #303030;
+    margin-top: 80px;
+}
+
+.agenda h4{
+    color:#303030;
+    margin-top: 20px;
+    margin-block-end: 60px;
+}
+
+.agenda h5{
+    color: #595959;
+    margin-right: 10%;
+    margin-left: 10%;
+}

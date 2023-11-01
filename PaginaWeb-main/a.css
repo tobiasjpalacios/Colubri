@@ -1,0 +1,45 @@
+.image-container4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 290px;
+    overflow: hidden; 
+    text-align: center;
+}
+  
+  .image-container4 img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.image-container4::before,
+.image-container4::after
+{
+  content: "";
+  position: absolute;
+  width: 230%;
+  height: 1px;
+  background-color: black;
+  background: linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%);
+  
+}
+
+@media screen and (max-width: 990px) {
+    .image-container4::before,
+    .image-container4::after{
+      background: #ffffff00;
+    }
+    .image-container4{
+      max-height: 415px;
+}}
+
+.image-container4::before {
+    right: -38%;
+    top: 20%;
+}
+  
+.image-container4::after {
+    left: -38%;
+    top: 20%;
+}
