@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="recipe.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"">
+  <script src="index.js"></script>
+  <script src="recipe.js"></script>
+  <title>JUAN PABLO COLUBRI</title>
+</header>
+<body>
+    <div class="container">
+      <!-- ---------------------------------------------------------------------- -->
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <img src="./images/logo.jpeg ">
+            <a class="underlined" href="./index.html">HOME</a>
+            <a class="underlined" href="#">ABOUT ME</a>
+            <a class="underlined" href="#">SERVICES</a>
+            <a class="underlined" href="#">WORK</a>
+            <a class="underlined" href="./schedule.html">SCHEDULE</a>
+            <a class="underlined" href="#">PARTNERS</a>
+            <a href="./recipe.html"><span class="text_yellow">RECIPE</span></a>
+            <a class="underlined" href="#">CONTACT</a>
+        </div>
+        <!-- END NAVBAR -->
+
+        <!-- NAVBAR -->
+        <div class="menu">
+          <button class="menu-button">Menú</button>
+          <ul class="menu-list">
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">WORK</a></li>
+              <li><a href="./schedule.html">SCHEDULE</a></li>
+              <li><a href="#">PARTNERS</a></li>
+              <li><a href="./recipe.html">RECIPE</a></li>
+              <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <!-- END NAVBAR -->
+
+        <!-- ---------------------------------------------------------------------- -->
+
+        <!-- PRESENTATION IMAGE -->
+        <div class="image-container" id="all-img">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+
+        <div class="image-container" id="showpice-img" style="display: none;">
+          <img src="./images/lemonpie.JPG" alt="Image">
+        </div>
+
+        <div class="image-container" id="desserts-img" style="display: none;">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+
+        <div class="image-container" id="viennoiserie-img" style="display: none;">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+
+        <div class="image-container" id="events-img" style="display: none;">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+
+        <div class="image-container" id="confectionery-img" style="display: none;">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+
+        <div class="image-container" id="chocolate-img" style="display: none;">
+          <img src="./images/portrait3.jpg" alt="Image">
+        </div>
+        
+        <!-- END PRESENTATION IMAGE -->
+
+        <!-- ---------------------------------------------------------------------- -->
+
+        <!-- SUBTITLE -->
+        <div class="subtitle">
+          <div>
+            <h1>MY RECIPES</h1>
+          </div>
+        </div>
+        <!-- END SUBTITLE -->
+
+        <!-- ---------------------------------------------------------------------- -->
+
+        <!-- CONTENT -->
+        <div class="content">
+        <div class="d-search">
+          <input type="text-s" class="search" placeholder="🔍 Type to search and hit enter" id="searchInput">
+        </div>
+        <div class="recipe-nav">
+          <a href="#" id="all">ALL</a>
+          <a href="#" id="chocolate">CHOCOLATES</a>
+          <a href="#" id="showpice">SHOWPIECES</a>
+          <a href="#" id="desserts">PLATE DESSERTS</a>
+          <a href="#" id="viennoiserie">VIENNOISERIE</a>
+          <a href="#" id="events">EVENTS</a>
+          <a href="#" id="confectionery">CONFECTIONERY</a>
+        </div>
+
+        <div id="all-div">
+          <div class="ideas">
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+            
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div>  
+          </div>
+
+          <div class="ideas">
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+            
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div>  
+          </div>
+
+          <div class="ideas">
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+            
+            <div class="recipe">
+              <img class="recipe-img" src="./images/helado2.jpg" alr="Image">
+              <h3>ICE CREAM COURSE</h3>
+              <h5>05 Sep 2023</h5>
+              <h6>IAG course taught only for students adnd former students</h6>
+              <input class="button" type="button" value="View details">
+            </div>
+
+            <div class="recipe">
+              <img class="recipe-img" src="./images/tortachocolate.jpg" alr="Image">
+              <h3>GELATO</h3>
+              <h5>31 Oct 2023 - 01 Nov 2023</h5>
+              <h6>You will be able to learn all the fundamentals of the making of Gelato in Chocolate Academy.</h6>
+              <input class="button" type="button" value="View details">
+            </div> 
+          </div> 
+        </div>
+
+        <div id="chocolate-div" style="display: none;">
+          <h1>None Chocolate</h1>
+        </div>
+
+        <div class="showpice" id="showpice-div" style="display: none;">
+          <div class="showpice-int">
+            <h1>INGREDIENTS</h1>
+            
+            <h3>STRAWBERRY SORBET</h3>
+            <div class="ingredients">
+              <li>400g Strawberry Puree</li>
+              <li>230g Water</li>
+              <li>100g Sugar</li>
+              <li>40g Powdered Glucose</li>
+              <li>11g Dextrose</li>
+              <li>16g Invert Sugar</li>
+              <li>3g Stabiliser (Super Neutrose)</li>
+            </div>
+
+            <h3>MERINGUE</h3>
+            <div class="ingredients">
+              <li>200g Eggs whites</li>
+              <li>400g Sugar</li>
+            </div>
+
+            <h3>CHANTILLY CREAM</h3>
+            <div class="ingredients">
+              <li>500g Cream</li>
+              <li>60g Icing Sugar</li>
+              <li>1/2 Icing Sugar</li>
+            </div>
+
+            <h3>SYRUP MARINADE</h3>
+            <div class="ingredients">
+              <li>125g Sugar</li>
+              <li>600g water</li>
+              <li>1/2 Vanilla pod</li>
+              <li>7.5g Wild Madagascar Pepper (Voatsiperifery)</li>
+              <li>4 Basil Leaves</li>
+              <li>1 Limes Juice</li>                
+            </div>
+
+            <h3>FRUIT SOUP</h3>
+            <div class="ingredients">
+              <li>50g Pinnaple</li>
+              <li>50g Apple</li>
+              <li>50g Kiwi fruit</li>
+              <li>50g Mango</li>
+              <li>50g Strawberry / Musk melon</li>
+              <li>50g Banana</li>  
+              <li>2 Passion fruits or puree</li>   
+              <li>50g Pear</li>             
+            </div>
+
+            <h1>INSTRUCTION</h1>
+            <h3>STRAWBERRY SORBET</h3>
+            <h5>Hydrate & cook stabaliser in microwave with water add remaining ingredients and cook to 65CFreeze in ice cream machine.</h5>
+          
+            <h3>STRAWBERRY SORBET</h3>
+            <h5>Cold Meringue method pipe onto back of Demarle dome moulds and bake 110C 35 minutes</h5>
+          
+            <h3>CHANTILLY CREAM</h3>
+            <h5>Whisk slowly until a thick and creamy piping consistency</h5>
+
+            <h3>SIRUP MARINADE</h3>
+            <h5>Boil water and sugar with vanilla, pepper, basil and lime juice cover and allow to infuse for 12 hours when cool store 4˚C, strain before using.</h5>
+          
+            <h3>FRUIT SOUP</h3>
+            <h5>Cut all fruits into a fine dice and add to cold syrup marinade and reserve at 4°C</h5>
+
+            <h3>SPUN SUGAR</h3>
+            <h5>Boil sugar, water and glucose to 160˚C or a very light caramel allow to cool and make spun sugar on a silpat mat, sprinkle with flowers and leaves, cover with more spun sugar and press, cut small disks or break up and reserve with silica gel until required</h5>
+          </div>
+        </div>
+
+        <div id="desserts-div" style="display: none;">
+          <h1>No desserts</h1>
+        </div>
+
+        <div id="viennoiserie-div" style="display: none;">
+          <h1>No viennoiserie</h1>
+        </div>
+
+        <div id="events-div" style="display: none;">
+          <h1>No events</h1>
+        </div>
+
+        <div id="confectionery-div" style="display: none;">
+          <h1>No confectionery</h1>
+        </div>
+
+        </div>
+      </div>
+      <!-- END CONTENT -->
+
+      <!-- ---------------------------------------------------------------------- -->
+
+      <!-- FOOTER -->
+      <div class="footer">
+
+        <h1>MY CONTACT INFO</h1>
+        <h5>GET IN TOUCH</h5>
+
+        <form class="form">
+          <label for="name">Your name:</label>
+          <input type="text" id="nombre" name="nombre">
+
+          <label for="email">Your email:</label>
+          <input type="email" id="email" name="email">
+
+          <label for="email">Subject:</label>
+          <input type="subject" id="subject" name="subject">
+
+          <label for="mesaje">Your message (optional):</label>
+          <textarea id="mesaje" name="mesaje"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+
+        <div class="social">
+          <h1>SOCIAL NETWORKS</h1>
+          <div class="social-networks">
+            <a class="a-footer-image" href="https://www.instagram.com/juanpablocolubri/">
+              <img class="footer-image" src="./images/ig.png" alt="ig">
+            </a>
+            <a class="a-footer-image" href="">
+              <img class="footer-image" src="./images/in.png" alt="in">
+            </a>
+            <a class="a-footer-image" href="">
+              <img class="footer-image" src="./images/face.png" alt="face">
+            </a>
+            <a class="a-footer-image" href="">
+              <img class="footer-image" src="./images/gmail.png" alt="gmail">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- END FOOTER -->
+
+      <!-- ---------------------------------------------------------------------- -->
+
+  </div>
+</body>
+</html>
+
